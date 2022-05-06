@@ -23,15 +23,25 @@ h3{
 a{
   color: #11999E;
   text-decoration: none;
+  margin-left: 20px;
+}
+a:hover{
+  color: #ffffff;
 }
 p{
   color: #40514E ;
   line-height: 2;
+}
+hr{
+  border-width: 3px;
+  border-color: #b9c2c2;
+  width: 5%;
+  border-style: dotted none none none;
+ 
 
 }
-/* CSS */
 .button-1 {
-  background-color: #66BFBF;
+  background-color: #11999E;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -59,7 +69,8 @@ p{
 
 .button-1:hover,
 .button-1:focus {
-  background-color: #3ba5a5;
+  background-color: #66BFBF;
+  
 }
 
 /***********************************************************Class *******************************************************/
@@ -81,7 +92,10 @@ p{
   padding: 20px;
 }
 .bottom-container p{
+  color: #ffffff;
   margin-bottom: 0;
+  font-size: small
+  
 }
 .top-container h2{
   font-weight: normal;
